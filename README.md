@@ -13,6 +13,7 @@
     * [Specify passwords](#specify-passwords)
     * [Install Percona server on CentOS](#install-percona-server-on-centos)
     * [Install MariaDB on Ubuntu](#install-mariadb-on-ubuntu)
+    * [Install MySQL Community server on CentOS](#install-mysql-community-server-on-centos)
 4. [Reference - An under-the-hood peek at what the module is doing and how](#reference)
 5. [Limitations - OS compatibility, etc.](#limitations)
 6. [Development - Guide for contributing to the module](#development)
