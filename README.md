@@ -362,10 +362,12 @@ mysql::server::package_ensure: 'installed' # do not specify version here, unfort
 mysql::server::root_password: "change_me_i_am_insecure"
 mysql::server::manage_config_file: true
 mysql::server::service_name: 'mysqld' # required for puppet module
+mysql::server::config_file: '/etc/my.cnf'
 mysql::server::override_options:
   'mysqld':
     'bind-address': '127.0.0.1'
     'log-error': '/var/log/mysqld.log' # required for proper MySQL installation
+    'pidfile': '/var/run/mysqld/mysqld.pid'
   'mysqld_safe':
     'log-error': '/var/log/mysqld.log'  # required for proper MySQL installation
 
